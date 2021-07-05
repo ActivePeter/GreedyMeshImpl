@@ -6,9 +6,9 @@
     // Visual Studio 16   vs2019 x86
     // Visual Studio 16 Win64   vs2019 x64
     // "cmake.generator": "Visual Studio 16",
-    // "cmake.configureSettings": {
-    //     "CMAKE_MAKE_PROGRAM": "C:/Program Files/ninja-win/ninja"
-    // },
-    // "cmake.generator": "Ninja",
-    //
+    "cmake.configureSettings": {
+        "CMAKE_MAKE_PROGRAM": "C:/Program Files/ninja-win/ninja"
+    },
+    "cmake.generator": "Ninja",
+    "cmake.parallelJobs": 30,
 }
