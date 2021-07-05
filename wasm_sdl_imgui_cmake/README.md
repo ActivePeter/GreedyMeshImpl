@@ -1,4 +1,4 @@
-# wasm_sdl_imgui_cpp
+# wasm_sdl_imgui_cmake
 
 ## 0.source
 
