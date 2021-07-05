@@ -4,7 +4,7 @@
 
 [schteppe/imgui-wasm: imgui/wasm boilerplate (github.com)](https://github.com/schteppe/imgui-wasm)
 
-## 1.development
+## 1.development_wasm(Emscripten)
 
 **1.0**
 
@@ -70,3 +70,20 @@ online demo:
 
 [ImGUI / WASM / WebGL demo (hanbaoaaa.xyz)](https://hanbaoaaa.xyz/apps/WasmDemo/)
 
+## 2.development_native
+
+**tested:** windows
+
+**2.1**
+
+install conan
+
+**2.2**
+
+run **shell_conan.sh** 
+
+windows can use git_bash to run .sh
+
+**2.3**
+
+follow the steps in 1.1.2 and 1.2
