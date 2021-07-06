@@ -3,7 +3,9 @@ project(MyApplication)
 
 # options
 option(Conan_SDL2 "use conan to load sdl2" ON)
-if(Conan_SDL2)
+if(${EMSCRIPTEN})
+    
+elseif(Conan_SDL2)
     #conan
     include(${MyApplication_BINARY_DIR}/conanbuildinfo.cmake)
     conan_basic_setup()
